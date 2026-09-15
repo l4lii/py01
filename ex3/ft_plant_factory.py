@@ -3,7 +3,7 @@
 class Plant:
     def __init__(self, name: str, height: int, age: int) -> None:
         self.name = name
-        self.height = float(height)
+        self.height = height
         self.age = age
 
     def show(self) -> None:
@@ -22,7 +22,7 @@ def ft_plant_factory() -> None:
 
 
 def main() -> None:
-    print("\033[32m", "=== Plant Factory Output ===", "\033[0m")
+    print("=== Plant Factory Output ===")
     ft_plant_factory()
 
 
